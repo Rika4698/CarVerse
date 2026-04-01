@@ -6,7 +6,7 @@ import { Search, Filter, SlidersHorizontal, Car, X, ChevronDown } from 'lucide-r
 import { cars } from '@/data/cars';
 import { CarCard } from './CarCard';
 import { CarModal } from './CarModal';
-
+import { Loading } from './Loading';
 
 export function CarListing() {
     const [searchTerm, setSearchTerm] = useState('');
@@ -170,7 +170,7 @@ export function CarListing() {
 
                 {/* Grid layout */}
                 {isLoading ? (
-                    ""
+                    <Loading/>
                 ) : filteredCars.length > 0 ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                         <AnimatePresence mode="popLayout">
