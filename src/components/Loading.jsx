@@ -36,8 +36,8 @@ export function Loading() {
             className="absolute inset-0 border-t-2 border-r-2 border-primary rounded-full blur-[2px]"
           ></motion.div>
 
-          <div className="relative w-32 h-32 bg-slate-900 dark:bg-white rounded-[40px] flex items-center justify-center shadow-2xl shadow-primary/20 rotate-12">
-            <CarFront size={64} className="text-white dark:text-slate-900 -rotate-12 group-hover:rotate-0 transition-transform" />
+          <div className="relative w-32 h-32 bg-primary dark:bg-primary-dark rounded-[40px] flex items-center justify-center shadow-2xl shadow-primary/20 ">
+            <CarFront size={64} className="text-white dark:text-slate-100  group-hover:rotate-0 transition-transform" />
           </div>
         </motion.div>
 
