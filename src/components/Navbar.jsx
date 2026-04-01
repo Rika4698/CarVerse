@@ -28,10 +28,9 @@ export function Navbar() {
   ];
 
   return (
-    <nav 
-      className={`fixed top-0 w-full z-50 transition-all duration-500 ease-in-out ${
-        scrolled ? 'glass py-3' : 'bg-transparent py-6'
-      }`}
+    <nav
+      className={`fixed top-0 w-full z-50 transition-all duration-500 ease-in-out ${scrolled ? 'glass py-3' : 'bg-transparent py-6'
+        }`}
     >
       <div className="w-full max-w-7xl mx-auto px-6 pb-2 flex justify-between items-center">
         {/* Logo */}
@@ -52,10 +51,9 @@ export function Navbar() {
               href={link.href}
               onClick={() => setActiveLink(link.href)}
               className={`text-xs lg:text-sm font-black uppercase tracking-widest relative group transition-all 
-                ${
-                  activeLink === link.href
-                    ? 'text-primary'
-                    : 'text-slate-900 dark:text-white hover:text-primary dark:hover:text-primary'
+                ${activeLink === link.href
+                  ? 'text-primary'
+                  : 'text-slate-900 dark:text-white hover:text-primary dark:hover:text-primary'
                 }
               `}
             >
@@ -64,17 +62,16 @@ export function Navbar() {
               {/* underline */}
               <span
                 className={`absolute -bottom-1 left-0 h-[2px] bg-primary transition-all
-                  ${
-                    activeLink === link.href
-                      ? 'w-full'
-                      : 'w-0 group-hover:w-full'
+                  ${activeLink === link.href
+                    ? 'w-full'
+                    : 'w-0 group-hover:w-full'
                   }
                 `}
               ></span>
             </a>
           ))}
-          
-          <button 
+
+          <button
             onClick={toggleTheme}
             className="p-2 rounded-full bg-slate-100 dark:bg-white transition-colors text-slate-900 dark:text-yellow-500"
             aria-label="Toggle dark mode"
@@ -85,7 +82,7 @@ export function Navbar() {
 
         {/* Mobile Actions */}
         <div className="md:hidden flex items-center gap-4">
-          <button 
+          <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-slate-900 dark:text-white p-2"
           >
@@ -97,14 +94,14 @@ export function Navbar() {
       {/* Mobile Menu */}
       <AnimatePresence>
         {isOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             className="md:hidden absolute  left-0 w-full bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-600"
           >
             <div className="flex flex-col p-8 gap-6">
-               {navLinks.map((link) => (
+              {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
@@ -113,10 +110,9 @@ export function Navbar() {
                     setActiveLink(link.href);
                   }}
                   className={`text-lg font-black uppercase tracking-widest transition-all
-                    ${
-                      activeLink === link.href
-                        ? 'text-primary'
-                        : 'text-slate-900 dark:text-white hover:text-primary'
+                    ${activeLink === link.href
+                      ? 'text-primary'
+                      : 'text-slate-900 dark:text-white hover:text-primary'
                     }
                   `}
                 >
@@ -126,7 +122,7 @@ export function Navbar() {
 
               <div className="pt-4 border-t border-slate-200 dark:border-slate-600 flex justify-between items-center">
                 <span className="text-sm font-bold uppercase tracking-widest text-slate-900/30 dark:text-slate-400">Switch Theme</span>
-                <button 
+                <button
                   onClick={toggleTheme}
                   className="p-4 bg-slate-100 dark:bg-white text-black dark:text-yellow-500 rounded-2xl"
                 >

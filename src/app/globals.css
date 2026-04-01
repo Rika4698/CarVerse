@@ -40,6 +40,14 @@ body {
     @apply bg-slate-900/90  shadow-white/10;
   }
 
+    .orange-gradient {
+    @apply bg-gradient-to-br from-orange-500 to-amber-500;
+  }
+
+  .italic-accent {
+    @apply font-serif italic text-primary drop-shadow-sm;
+  }
+
 }
 
 

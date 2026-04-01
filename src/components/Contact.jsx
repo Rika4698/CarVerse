@@ -52,7 +52,7 @@ export function Contact() {
   ];
 
   return (
-    <section id="contact" className="py-32 bg-white dark:bg-slate-800 overflow-hidden">
+    <section id="contact" className="py-28 bg-white dark:bg-slate-900 overflow-hidden">
       
 
 
@@ -82,7 +82,7 @@ export function Contact() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
                 whileHover={{ scale: 1.05 }}
-                className="p-6 rounded-3xl bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 hover:border-primary dark:hover:border-primary-dark shadow-sm group hover:shadow-xl transition-all"
+                className="p-6 rounded-3xl bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600  shadow-sm group hover:shadow-xl transition-all"
               >
                 <div className="flex justify-between mb-6">
                   <div className="p-3 rounded-xl bg-primary/10 text-primary bg-white dark:bg-slate-800 shadow-sm border border-slate-100 dark:border-slate-800 group-hover:bg-primary group-hover:text-white transition-all duration-500">
