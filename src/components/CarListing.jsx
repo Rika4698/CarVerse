@@ -68,8 +68,8 @@ export function CarListing() {
                 <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-12 mb-20">
                     <div className="max-w-2xl mx-auto lg:mx-0 text-center lg:text-left">
                         <h2 className="text-xs font-black text-primary uppercase tracking-[0.6em] mb-6 inline-block bg-primary/15 dark:bg-primary/25 px-4 py-1 rounded-full">Discover Our Fleet</h2>
-                        <h2 className="text-6xl md:text-7xl font-black text-slate-900 dark:text-white mb-10 leading-tight">
-                            Featured <br /> <span className="italic font-serif text-primary">Vehicles</span>
+                        <h2 className="text-6xl md:text-7xl font-black text-slate-900 dark:text-white mb-10 tracking-wide">
+                            Featured <br /> <span className="italic font-serif text-primary ">Vehicles</span>
                         </h2>
                         <p className="text-xl text-slate-900/50 dark:text-slate-500 max-w-lg leading-relaxed font-medium">
                             Explore our meticulously curated collection of high-performance machines and luxury cruisers.
