@@ -52,7 +52,7 @@ export function Contact() {
   ];
 
   return (
-    <section className="py-32 bg-white dark:bg-slate-800 overflow-hidden">
+    <section id="contact" className="py-32 bg-white dark:bg-slate-800 overflow-hidden">
       
 
 
@@ -70,7 +70,7 @@ export function Contact() {
             <span className="text-primary italic">Connections</span>
           </motion.h2>
 
-          <p className=" max-w-md mb-12  text-xl text-slate-900/50 dark:text-slate-500  leading-relaxed font-medium text-center lg:text-left mx-auto">
+          <p className=" max-w-md mb-12  text-xl text-slate-900/50 dark:text-slate-500  leading-relaxed font-medium text-center lg:text-left  mx-auto lg:mx-0">
             Experience luxury communication with our elite concierge team.
           </p>
 

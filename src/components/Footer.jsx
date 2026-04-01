@@ -30,7 +30,7 @@ export function Footer() {
               {[FaInstagram, FaTwitter, FaLinkedin].map((Icon, idx) => (
                 <button
                   key={idx}
-                  className="w-12 h-12 bg-slate-300 dark:bg-slate-500 rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all text-slate-600 shadow-sm border border-white/5"
+                  className="w-12 h-12 bg-slate-300 dark:bg-slate-500 rounded-full flex items-center justify-center hover:bg-primary dark:hover:bg-primary hover:text-white transition-all text-slate-800 shadow-sm border border-white/5"
                 >
                   <Icon size={20} />
                 </button>
