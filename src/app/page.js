@@ -1,3 +1,4 @@
+import { About } from "@/components/About";
 import { CarListing } from "@/components/CarListing";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
@@ -11,7 +12,9 @@ export default function Home() {
       <main className="relative min-h-screen">
         <Navbar/>
         <Hero/>
+        <About/>
         <CarListing/>
+        
         <Contact/>
         <Footer/>
         
