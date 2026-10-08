@@ -7,7 +7,7 @@
 [![React](https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.38-black?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](./LICENSE)
+
 
 <br />
 
@@ -19,25 +19,6 @@ Engineered with Next.js 16 (App Router), React 19, Tailwind CSS, and Framer Moti
 
 ---
 
-## 📖 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Tech Stack](#-tech-stack)
-- [Project Architecture](#-project-architecture)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Development Server](#running-the-development-server)
-  - [Production Build](#production-build)
-- [Data Model & Customization](#-data-model--customization)
-- [Design System & UI Components](#-design-system--ui-components)
-- [Deployment](#-deployment)
-- [Roadmap](#-roadmap)
-- [Author & Acknowledgments](#-author--acknowledgments)
-- [License](#-license)
-
----
 
 ## 🌟 Overview
 
