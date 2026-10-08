@@ -215,16 +215,6 @@ CarVerse is pre-configured for one-click deployment on **[Vercel](https://vercel
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] **Interactive 3D / 360° Car Configurator** (Three.js / React Three Fiber integration)
-- [ ] **Live Inventory Backend & CMS** (Sanity / Supabase / PostgreSQL integration)
-- [ ] **Customer Test Drive Booking Calendar** with automated confirmation emails
-- [ ] **Saved Favorites & Comparison Tool** (side-by-side spec comparison)
-- [ ] **Multi-Currency Converter** (USD, EUR, GBP, JPY)
-
----
-
 ## 👥 Author & Acknowledgments
 
 - **Creator**: [Rika4698](https://github.com/Rika4698)
@@ -232,10 +222,6 @@ CarVerse is pre-configured for one-click deployment on **[Vercel](https://vercel
 - **Inspirations**: Luxury automotive manufacturers & modern bespoke digital showrooms.
 
 ---
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](./LICENSE).
 
 <div align="center">
   <sub>Built with ❤️ for automotive lovers worldwide.</sub>
